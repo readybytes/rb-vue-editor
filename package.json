@@ -1,0 +1,40 @@
+{
+  "name": "rb-vue-editor",
+  "description": "A vue2 text editor to beautify the text and text box with elegant editing properties.",
+  "version": "0.1.0",
+  "private": false,
+  "author": {
+    "name": "Ready Bytes",
+    "email": "hey@readybytes.in"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/readybytes/rb-vue-editor"
+  },
+  "bugs": "https://github.com/readybytes/rb-vue-editor/issues",
+  "keywords": [
+    "vue2",
+    "text-editor",
+    "form-editor"
+  ],
+  "files": [
+    "dist/*"
+  ],
+  "main": "./dist/rb-vue-editor.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-library": "vue-cli-service build --target lib --name rb-vue-editor ./src/install.js",
+    "publish-package": "npm run build-library && npm publish --access public"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

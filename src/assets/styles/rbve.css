@@ -1,0 +1,86 @@
+.text-field-vec {
+	padding: 10px;
+}
+.text-field-vec:focus {
+	outline: none;
+}
+.highlight-border-vec {
+	border: 1px solid black;
+}
+.font-bold-vec {
+	font-weight: bold;
+}
+.highlight-background-vec {
+	background: #ededed !important;
+}
+.colors-square-vec {
+	width: 13px;
+	height: 13px;
+	margin: 0px 5px;
+	display: inline-block;
+	border-radius: 3px;
+}
+.sub-script-vec {
+	vertical-align: sub;
+	font-size: 13px;
+}
+
+/* parent dropdown */
+.dropdown-vec {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content-vec {
+	position: absolute;
+	min-width: 160px;
+	display: none;
+	z-index: 10;
+}
+.dropdown-vec:hover .dropdown-content-vec {
+	display: block;
+}
+
+/* btn group's buttons (inside parent dropdown) */
+.btn-group-vec {
+	width: 480px;
+}
+.btn-group-vec button {
+	width: 90px;
+	min-height: 62px;
+	background-color: #fff;
+	border: 1px solid lightgray;
+	color: #000;
+	font-size: 18px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 8px;
+	cursor: pointer;
+	float: left;
+	outline: none;
+}
+.btn-group-vec:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.btn-group-vec button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+}
+
+/* sub menus of any button */
+.sub-menu-vec {
+	display: none;
+	width: 100%;
+}
+.sub-menu-btn-vec:hover .sub-menu-vec {
+	display: block;
+}
+.sub-menu-btn-vec:hover .sub-menu-btn-icon-vec {
+	display: none;
+}
+.sub-menu-labels-vec {
+	padding-top: 10px;
+	font-size: 13px;
+}
+.sub-menu-labels-vec:hover {
+	color: red;
+}
