@@ -1,5 +1,5 @@
 {
-  "name": "rb-vue-editor",
+  "name": "@readybytes/rb-vue-editor",
   "description": "A vue2 text editor to beautify the text and text box with elegant editing properties.",
   "version": "0.1.0",
   "private": false,
