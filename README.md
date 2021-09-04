@@ -8,20 +8,20 @@
 ## Installation
 
 ```
-npm install --save rb-vue-editor
+npm install --save @readybytes/rb-vue-editor
 ```
 
 or
 
 ```
-yarn add rb-vue-editor
+yarn add @readybytes/rb-vue-editor
 ```
 
 ## Declaration
 
 ```
 <script>
-import RBVueEditor from "rb-vue-editor";
+import RBVueEditor from "@readybytes/rb-vue-editor";
 
 export default {
   name: "HelloWorld"
@@ -56,7 +56,7 @@ export default {
 ```
 <RBVueEditor
   v-model="text"
-  type="textarea",
+  type="textarea"
   :config="{
     placeholder: 'Type...',
     background: '#1A76D2',
