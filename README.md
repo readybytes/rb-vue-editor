@@ -4,7 +4,7 @@
 
 ![Demo](./src/assets/demo.gif)
 
-#### [Codesandbox Example](https://codesandbox.io/s/vue-editor-chief-demo-7kyi9?file=/src/main.js)
+#### [Codesandbox Example](https://codesandbox.io/s/rb-vue-editor-demo-k159b)
 ## Installation
 
 ```
